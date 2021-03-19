@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Crixodia's blog
-email: 
+#email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -29,7 +29,25 @@ url: "https://crixodia.github.io" # the base hostname & protocol for your site, 
 #Removed due to new minima version
 #twitter_username: crixodia
 #github_username:  crixodia
+disqus:
+  shortname: crixodiablog
 
+minima:
+  skin: dark
+  social_links:
+      twitter: crixodia
+      github: crixodia
+      stackoverflow: "8524034"
+      instagram: crixodia
+      linkedin: crixodia
+      pinterest: crixodia
+      telegram: crixodia
+      youtube_channel: UCIIszmFMvyNn5gj0xwrxIsg
+      youtube_channel_name: Gabriel Bastidas
+
+author:
+  name: Cristian G. Bastidas
+  email: "gabrielbastidas5g@outlook.com"
 # Build settings
 #Removed to use general theme
 #theme: minima
