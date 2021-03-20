@@ -20,15 +20,21 @@
 
 title: Crixodia's blog
 #email: 
+  
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://crixodia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 #Removed due to new minima version
 #twitter_username: crixodia
 #github_username:  crixodia
+
+# 50px Height is the best option
+#title-logo: /images/title-logo.png
+
 disqus:
   shortname: crixodiablog
 
@@ -40,7 +46,6 @@ minima:
       stackoverflow: "8524034"
       instagram: crixodia
       linkedin: crixodia
-      pinterest: crixodia
       telegram: crixodia
       youtube_channel: UCIIszmFMvyNn5gj0xwrxIsg
       youtube_channel_name: Gabriel Bastidas
@@ -48,6 +53,10 @@ minima:
 author:
   name: Cristian G. Bastidas
   email: "gabrielbastidas5g@outlook.com"
+
+message: "Made with ❤ by crixodia"
+#copyright:
+
 # Build settings
 #Removed to use general theme
 #theme: minima
