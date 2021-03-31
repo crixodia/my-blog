@@ -22,7 +22,8 @@ title: Cristian Bastidas
 #email: 
   
 description: >- # this means to ignore newlines until "baseurl:"
-  
+  Blog acerca de ciencias de la computación. Aprenderás con tutoriales, experiencias personales y código. / 
+  Blog about computer science. You will learn with tutorials, personal experiences, and code.
 
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://crixodia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -53,7 +54,7 @@ author:
   name: Cristian G. Bastidas
   email: "gabrielbastidas5g@outlook.com"
 
-message: "Made with ❤"
+message: "Made with ❤ by Crixodia"
 #copyright:
 
 # Build settings
