@@ -6,8 +6,8 @@ permalink: /about/
 Soy Cristian Bastidas, un estudiante de ingeniería apasionado por las ciencias de la computación. 
 
 * [¿Cómo puedo ayudarte?](#cómo-puedo-ayudarte) / [How can I help you?](#how-can-i-help-you)
-* [¿Quién soy en realidad?](#quién-soy-en-realidad) / [Who am I really?](#who-am-I-really)
-* [¿En qué otros lugares estoy?](#en-qué-otros-lugares-estoy) / [What other places am I?](#what-other-places-am-I)
+* [¿Quién soy en realidad?](#quién-soy-en-realidad) / [Who am I really?](#who-am-i-really)
+* [¿En qué otros lugares estoy?](#en-qué-otros-lugares-estoy) / [What other places am I?](#what-other-places-am-i)
 
 ## ¿Cómo puedo ayudarte?
 Este blog es para ti si estás buscando ideas para un proyecto o tutoriales escritos que te ayuden a reforzar un tema en específico, o incluso aprender algo nuevo.
