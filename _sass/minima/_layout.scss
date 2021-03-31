@@ -339,9 +339,6 @@
   object-fit: cover;
   border-radius: 5px;
   margin-bottom: 10px;
-  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
 }
 
 /**
@@ -354,9 +351,28 @@
   border-radius: 5px;
   float: left;
   margin-right: 10px;
-  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
+}
+
+/**
+* Avatar style
+**/
+.avatar-picture{
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100px; 
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+/**
+* Custom shadow style
+**/
+.shadow{
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 /**

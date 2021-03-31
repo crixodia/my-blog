@@ -27,10 +27,10 @@ layout: default
       {%- if post.language=="en" -%}
       <li>
         {%- if post.image -%}
-          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image shadow">
         {%- else -%}
           {%- assign postImage = "/assets/images/default-featured-image.jpg" -%}
-          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
+          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image shadow">
         {%- endif -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
