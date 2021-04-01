@@ -82,3 +82,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# How to post
+# filename: 2021-03-18-welcome-to-jekyll.markdown
+# ---
+# layout: post
+# title:  "Welcome to Jekyll!"
+# date:   2021-03-18 02:04:19 -0500
+# categories: jekyll update
+# language: es
+# image: /assets/images/default-featured-image.jpg
+# ---
