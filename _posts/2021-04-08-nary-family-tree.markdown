@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Árbol genealógico familiar en java: Una aplicación de árboles generales o n-arios"
-date: 2021-04-09 20:00:00 -0500
+date: 2021-04-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: es
 image: /assets/images/thumbnail-trees.png
@@ -10,7 +10,7 @@ Quizá ya habrás implementado un árbol binario en java, lo cual es fácil. Por
 
 - [Árboles n-arios o generales](#árboles-n-arios-o-generales)
 - [Árbol genealógico](#árbol-genealógico)
-- [Definiento los objetos](#definiento-los-objetos)
+- [Definiendo los objetos](#definiendo-los-objetos)
   - [Nodo](#nodo)
   - [Árbol](#árbol)
   - [Archivos: Guardar y cargar árboles](#archivos-guardar-y-cargar-árboles)
@@ -30,7 +30,7 @@ Una de sus aplicaciones se basa en el árbol genealógico. Pues cumple con los r
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/family-tree.png" style="display:block; margin-left: auto; margin-right:auto;" alt="Ejemplo de árbol familiar">
 
-## Definiento los objetos
+## Definiendo los objetos
 
 Dado que es un árbol genealógico, implementaremos un objeto genérico para esto. Y el árbol en sí como se especifica a continuación. Es necesario recalcar que los métodos implementados en la clase árbol pueden cambiar dependiendo de tus necesidades y del tipo de objeto que se use como valor en los nodos.
 
@@ -38,7 +38,7 @@ Dado que es un árbol genealógico, implementaremos un objeto genérico para est
 
 ### Nodo
 
-El nodo de nuestro árbol es sencillo de implementar. Tal y como lo especifica su estructura, haremos uso de un objeto padre otro para la raíz y una lista de objetos hijos.
+El nodo de nuestro árbol es sencillo de implementar. Tal y como lo especifica su estructura, usaremos un objeto padre, otro para la raíz y una lista de objetos hijos.
 
 El método para añadir nodos está dado por:
 
@@ -53,9 +53,9 @@ Mira la clase [Node](https://github.com/crixodia/nary-family-tree/blob/master/Ar
 
 ### Árbol
 
-Por otra parte, la dificultad de este proyecto radica en la implementación del árbol. Dado que los árboles se podrán almacenar en archivos hay que diseñar un parser que traduzca el árbol a texto y otro para el proceso inverso. Además, para visualizar el árbol en la GUI también es necesario implementar un parser que permita traducirlo a un objeto tipo `DefaultMutableTreeNode`.
+La dificultad de este proyecto radica en la implementación del árbol. Dado que los árboles se podrán almacenar en archivos hay que diseñar un parser que traduzca el árbol a texto y otro para el proceso inverso. Además, para visualizar el árbol en la GUI también es necesario implementar un parser que permita traducirlo a un objeto tipo `DefaultMutableTreeNode`.
 
-Para esta labor me basé en el siguiente [pseudocódigo](https://stackoverflow.com/questions/21735468/parse-indented-text-tree-in-java). Para entenderlo debes tener nociones básicas de pilas. Puede revisarlo en el código fuente del método `text2DTree(string)`.
+Para esta labor me basé en el siguiente [pseudocódigo](https://stackoverflow.com/questions/21735468/parse-indented-text-tree-in-java). Para entenderlo debes tener nociones básicas de pilas. Puede revisar el código fuente del método `text2DTree(string)`.
 
 ```python
 definir pila
@@ -76,7 +76,7 @@ return pila.get(0)
 ```
 ### Archivos: Guardar y cargar árboles
 
-Luego, la labor de leer los archivos se simplifica al guardar el padre de cada elemento. Solo hay que tratar el archivo según el formato que haya especificado. Para este caso tenemos cada nodo en un línea diferente, su padre y el valor separados por `,` y los atributos del objeto por `:`
+Luego, el proceso de leer los archivos se simplifica al guardar el padre de cada elemento. Solo hay que tratar el archivo según el formato especificado. Para este caso tenemos cada nodo en una línea diferente, su padre y el valor separados por `,` y los atributos del objeto por `:`
 
 ```
 Aang:Katara:0:0
@@ -87,7 +87,7 @@ Tenzin:Pema,Ikki::0:0
 Aang:Katara,Bumi::0:0
 Aang:Katara,Kya::0:0
 ```
-Cuando leemos línea por línea podemos obtener su padre y el valor del nodo y ejecutar `addNewNode(padre, valor)` trasladado a la línea dos del formato de ejemplo `addNewNode(Aang, Tenzin)`.
+Cuando leemos línea por línea podemos obtener su padre y el valor del nodo para luego ejecutar `addNewNode(padre, valor)`. Trasladado a la línea dos del formato de ejemplo `addNewNode(Aang, Tenzin)`.
 
 Para guardar los árboles también nos valemos del puntero al nodo padre. De esta forma solo hay que recorrer el árbol entero en pre-orden e ir concatenando el padre y el valor del nodo según el formato especificado.
 
@@ -97,7 +97,7 @@ Los métodos de búsqueda, remoción, profundidad y modificación pueden ser con
 
 ### Unicidad del objeto de prueba
 
-Surge la interrogante ¿Qué pasa si el hijo tiene el mismo identificador (nombre) que el padre? Para este ejemplo comprobamos la unicidad en función de su cónyuge. Es decir, cuando comparemos los objetos deberemos se verificará que los nombre de ambos objetos y los nombres de sus cónyuges sean iguales. Si es así, entonces ambos objetos son iguales. Es así como sobreescribimos el método `equals(o)`.
+Surge la interrogante ¿Qué pasa si el hijo tiene el mismo identificador (nombre) que el padre? Para este ejemplo comprobamos la unicidad en función de su cónyuge. Es decir, cuando comparemos los objetos se verificará que los nombre de ambos objetos y los nombres de sus cónyuges sean iguales. Si es así, entonces ambos objetos son iguales. Para ello sobreescribimos el método `equals(o)`.
 
 ```java
 @Override
@@ -119,4 +119,4 @@ Puedes [descargar](https://github.com/crixodia/nary-family-tree/tree/master/exam
 
 ## Descarga el proyecto
 
-Descarga el proyecto completo en [GitHub](http://github.com/crixodia/nary-family-tree). Para cualquier sugerencia o aclaración no dudes en dejar tu comentario.
+Descarga el proyecto completo en [GitHub](http://github.com/crixodia/nary-family-tree). Para cualquier sugerencia o aclaración deja tu comentario.

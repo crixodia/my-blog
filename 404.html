@@ -20,7 +20,8 @@ layout: default
 
 <div class="container">
   <h1>404</h1>
-  <img src="./assets/images/ghost.svg" alt="ghost" style="width: 200px; margin-bottom: 20px;">
+  {%- assign image404 = "/assets/images/ghost.svg" -%}
+  <img src="{{- image404 | relative_url -}}" alt="ghost" style="width: 200px; margin-bottom: 20px;">
   <p><strong>Página no encontrada / Page not found</strong></p>
   <p>The requested page could not be found.</p>
   <div style="font-size: x-small;">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
