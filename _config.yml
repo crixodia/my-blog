@@ -56,9 +56,11 @@ author:
 message: "Made with ❤ by Crixodia"
 #copyright:
 
+google_analytics: G-EKGGQ4L26M
+
 # Build settings
-#Removed to use general theme
-#theme: minima
+# Removed to use general theme
+# theme: minima
 plugins:
   - jekyll-feed
 

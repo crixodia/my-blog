@@ -26,7 +26,7 @@ En pocas palabras, un árbol n-ario es una estrucutura de datos abstracta no lin
 
 ## Árbol genealógico
 
-Una de sus aplicaciones se basa en el árbol genealógico. Pues cumple con los requisitos de un árbol n-ario (jerarquía, relaciones padre - hijo).
+Una de sus aplicaciones se basa en el árbol genealógico. Pues cumple con los requisitos de un árbol n-ario (jerarquía, relaciones padre - hijo). La siguiente imagen muestra un ejemplo de árbol genealógico basado en la mitología griega.
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/family-tree.png" style="display:block; margin-left: auto; margin-right:auto;" alt="Ejemplo de árbol familiar">
 
