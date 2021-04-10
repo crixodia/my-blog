@@ -3,8 +3,9 @@ source "https://rubygems.org"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
-#     bundle exec jekyll serve
-#     bundle exec jekyll build JEKYLL_ENV=production --incremental
+#     bundle exec jekyll serve --host 127.0.0.x --port 20000-40000 --livereload
+#     JEKYLL_ENV=production bundle exec jekyll build --incremental
+#     bundle exec jekyll serve --host 192.168.0.108 --port 20000
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!

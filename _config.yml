@@ -19,21 +19,21 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Cristian Bastidas
-#email: 
+# email: 
   
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog acerca de ciencias de la computación. Aprenderás con tutoriales, experiencias personales y código. / 
-  Blog about computer science. You will learn with tutorials, personal experiences, and code.
+  Ciencias de la computación. Tutoriales y experiencias personales.
+# Blog about computer science. You will learn with tutorials, personal experiences, and code.
 
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://crixodia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-#Removed due to new minima version
-#twitter_username: crixodia
-#github_username:  crixodia
+# Removed due to new minima version
+# twitter_username: crixodia
+# github_username:  crixodia
 
 # 50px Height is the best option
-#title-logo: /images/title-logo.png
+# title-logo: /images/title-logo.png
 
 disqus:
   shortname: crixodiablog

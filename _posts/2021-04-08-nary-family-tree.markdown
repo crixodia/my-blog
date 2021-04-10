@@ -4,7 +4,7 @@ title: "Árbol genealógico familiar en java: Una aplicación de árboles genera
 date: 2021-04-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: es
-image: /assets/images/thumbnail-trees.png
+image: /assets/images/thumbnail-trees.jpg
 ---
 Quizá ya habrás implementado un árbol binario en java, lo cual es fácil. Por otra parte, los áboles n-arios se caracterizan por la posibilidad de tener n hijos. A continuación crearemos una aplicación a este tipo de dato con árboles genealógicos.
 
