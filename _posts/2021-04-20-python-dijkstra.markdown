@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algoritmo de Dijkstra en python"
+title: "Algoritmo de Dijkstra en Python"
 date: 2021-04-20 11:55:00 -0500
 categories: algorithm python tutorial wiki
 language: es
@@ -13,12 +13,12 @@ Si estás estudiando ingeniería o ciencias de la computación, lo más probable
 
 - [Algoritmo](#algoritmo)
 - [Código](#código)
-- [Código con métodos extra](#código-con-métodos-extra)
+- [Módulo en Python](#módulo-en-python)
   - [Encontrar todas las distancias y caminos](#encontrar-todas-las-distancias-y-caminos)
   - [Encontrar los caminos más cortos](#encontrar-los-caminos-más-cortos)
   - [Encontrar las distancias más cortas](#encontrar-las-distancias-más-cortas)
 
-El algoritmo de Dijkstra tiene como objetivo encontrar el camino más corto entre nodos en un grafo. Este grafo puede representar una red o el costo de viaje entre ciudades usando determinados caminos. Este algoritmo usa las etiquetas de con número positivos (enteros o reales) que representan el costo en cada arista.
+El algoritmo de Dijkstra tiene como objetivo encontrar el camino más corto entre nodos en un grafo. Este grafo puede representar una red o el costo de viaje entre ciudades usando determinados caminos. Este algoritmo usa las etiquetas con número positivos (enteros o reales) que representan el costo en cada arista.
 
 La idea radica en explorar todos los caminos más cortos desde el vértice origen hasta los vértices restantes. Cuando se obtiene el camino más corto hacia el vértice deseado o todos los caminos cortos a los demás vértices que componen el grafo, este se detiene. Es de importancia mencionar que este algoritmo no funciona para costes negativos. Para este fin existe el algoritmo de Bellman-Ford.
 
@@ -118,7 +118,7 @@ wmat = [[0, 2, 0, 0, 0, 1, 0, 0],
         [0, 0, 1, 0, 0, 0, 6, 0]]
 ```
 
-## Código con métodos extra
+## Módulo en Python
 
 Para una mejor comprensión puedes descargar el [módulo](http://github.com/crixodia/python-dijkstra) que contiene varios métodos en función del vértice destino y con las opciones agregadas para obtener solo una lista de distancias o una lista con los caminos. Para ello importaremos el módulo en nuestro directorio de trabajo.
 
@@ -158,7 +158,7 @@ Obteniendo una tupla con una lista de todas las distancias y otra con todos los 
 dijkstra.find_shortest_path(wmat, 0)
 ```
 
-Si no especificamos el vértice destino, obtendremos todas las distanciashacia los vértices restantes.
+Si no especificamos el vértice destino, obtendremos todas las distancias hacia los vértices restantes.
 
 ```python
 # Caminos
