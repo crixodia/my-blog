@@ -36,7 +36,7 @@ url: "https://crixodia.github.io" # the base hostname & protocol for your site, 
 # title-logo: /images/title-logo.png
 
 disqus:
-  shortname: crixodiablog
+  shortname: crixodiablog-1
 
 minima:
   skin: dark
