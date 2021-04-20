@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Árbol genealógico familiar en java: Una aplicación de árboles generales o n-arios"
+title: "Árbol genealógico familiar en java - Árboles n-arios"
 date: 2021-04-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: es
