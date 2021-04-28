@@ -35,8 +35,13 @@ url: "https://crixodia.github.io" # the base hostname & protocol for your site, 
 # 50px Height is the best option
 # title-logo: /images/title-logo.png
 
-disqus:
-  shortname: crixodiablog-1
+# disqus:
+  #shortname: crixodiablog-1
+
+utterances:
+  repo: crixodia/my-blog
+  issue-term: pathname
+  theme: github-dark
 
 minima:
   skin: dark
