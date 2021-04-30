@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Programando el juego de la vida en Java"
+title: "El juego de la vida en Java"
 date: 2021-04-11 11:55:00 -0500
 categories: structures java challenge gui
 language: es

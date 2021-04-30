@@ -6,6 +6,8 @@ categories: algorithm python tutorial wiki
 language: es
 image: /assets/images/thumbnail-dijkstra.webp
 ---
+{%- assign graph = "/assets/images/posts/wgraph.webp" -%}
+{%- assign dijkstra = "/assets/images/posts/dijkstra-animation.webp" -%}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
 
@@ -26,8 +28,7 @@ La idea radica en explorar todos los caminos más cortos desde el vértice orige
 
 Sea un grafo ponderado de $$ N $$ nodos no aislados, $$X$$ el nodo inicial. Un vector $$V$$ de dimensión $$N$$ hará la función de almacén de las distancias de $$X$$ hacia los nodos restantes. Luego, el algoritmo se plantea de la siguiente forma:
 
-<br>
-{%- assign dijkstra = "/assets/images/posts/dijkstra-animation.webp" -%}
+
 <img src="{{- dijkstra | relative_url -}}" alt="Algoritmo de Dijkstra animado" width="250px" style="display:block; margin-left: auto; margin-right:auto;">
 <div style="font-size: x-small; text-align:center;">Algortimo de Dijkstra animado extraído de <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif" title="Wikipedia">Wikipedia</a>
 </div>
@@ -87,9 +88,7 @@ def find_all(wmat, start, end=-1):
 
 Para comprobar su correcta ejecución tomemos el siguiente grafo:
 
-<br>
-{%- assign graph = "/assets/images/posts/wgraph.webp" -%}
-<img src="{{-graph | relative_url -}}" alt="Grafo ponderado" style="display:block; margin-left: auto; margin-right:auto;">
+<img src="{{- graph | relative_url -}}" alt="Grafo ponderado" style="display:block; margin-left: auto; margin-right:auto;">
 
 Cuya matriz de adyacencia es:
 <p>

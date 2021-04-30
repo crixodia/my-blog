@@ -6,6 +6,9 @@ categories: tool web tutorial guide
 language: es
 image: /assets/images/thumbnail-utterances.webp
 ---
+{%- assign create = "/assets/images/posts/utterances-create.webp" -%}
+{%- assign create = "/assets/images/posts/utterances-install.webp" -%}
+
 Al iniciar este blog lo primero que tenía en mente es el sistema de comentarios. Así que me decanté por lo más popular. Disqus ofrece varias características interesantes. Sin embargo, si tu proyecto no es algo de tal importancia como para pagar una suscripción mensual tengo la alternativa perfecta para ti.
 
 [Utterances](https://utteranc.es/) es un sistema de comentarios construido a partir de *GitHub issues* para blogs, y webs en general. Este sistema se destaca por ser completamente gratuito y ligero.
@@ -14,14 +17,10 @@ Usarlo es muy sencillo, basta seguir esta guía o las instrucciones de su [web o
 
 Crea un repositorio público en [GitHub](https://github.com) en donde alojar los comentarios. También puedes usar un repositorio existente.
 
-<br>
-{%- assign create = "/assets/images/posts/utterances-create.webp" -%}
 <img src="{{- create | relative_url -}}" alt="Crear repositorio" width="600px" style="display:block; margin-left: auto; margin-right:auto;">
 
 Instala la [aplicación](https://github.com/apps/utterances) de utterances en tu repositorio.
 
-<br>
-{%- assign create = "/assets/images/posts/utterances-install.webp" -%}
 <img src="{{- create | relative_url -}}" alt="Crear repositorio" width="auto" style="display:block; margin-left: auto; margin-right:auto;">
 
 Copia el siguiente script en la sección donde quieras los comentarios.
@@ -50,8 +49,6 @@ theme="github-dark"
 
 Además, puedes modificar el formato de los *issues* en GitHub. Para ello usa el asistente de configuración de [utterances](https://utteranc.es/).
 
-<br>
-{%- assign create = "/assets/images/posts/utterances-create.webp" -%}
 <img src="https://i.imgur.com/LJz21uP.gif" alt="Crear repositorio" width="auto" style="display:block; margin-left: auto; margin-right:auto;">
 
 Eso es todo. Aunque hay que mencionar un par de desventajas. No es posible comentar de forma anónima y los usuarios deberán tener una cuenta en GitHub para comentar. Pero esto no algo de lo cual preocuparse si estás generando contenido o creando una comunidad en torno a desarrollo.
