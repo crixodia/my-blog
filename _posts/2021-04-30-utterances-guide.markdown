@@ -7,7 +7,7 @@ language: es
 image: /assets/images/thumbnail-utterances.webp
 ---
 {%- assign create = "/assets/images/posts/utterances-create.webp" -%}
-{%- assign create = "/assets/images/posts/utterances-install.webp" -%}
+{%- assign install = "/assets/images/posts/utterances-install.webp" -%}
 
 Al iniciar este blog lo primero que tenía en mente es el sistema de comentarios. Así que me decanté por lo más popular. Disqus ofrece varias características interesantes. Sin embargo, si tu proyecto no es algo de tal importancia como para pagar una suscripción mensual tengo la alternativa perfecta para ti.
 
@@ -21,7 +21,7 @@ Crea un repositorio público en [GitHub](https://github.com) en donde alojar los
 
 Instala la [aplicación](https://github.com/apps/utterances) de utterances en tu repositorio.
 
-<img src="{{- create | relative_url -}}" alt="Crear repositorio" width="auto" style="display:block; margin-left: auto; margin-right:auto;">
+<img src="{{- install | relative_url -}}" alt="Install utterances" width="auto" style="display:block; margin-left: auto; margin-right:auto;">
 
 Copia el siguiente script en la sección donde quieras los comentarios.
 
@@ -49,7 +49,7 @@ theme="github-dark"
 
 Además, puedes modificar el formato de los *issues* en GitHub. Para ello usa el asistente de configuración de [utterances](https://utteranc.es/).
 
-<img src="https://i.imgur.com/LJz21uP.gif" alt="Crear repositorio" width="auto" style="display:block; margin-left: auto; margin-right:auto;">
+<img src="https://i.imgur.com/LJz21uP.gif" alt="Utterances config" width="auto" style="display:block; margin-left: auto; margin-right:auto;">
 
 Eso es todo. Aunque hay que mencionar un par de desventajas. No es posible comentar de forma anónima y los usuarios deberán tener una cuenta en GitHub para comentar. Pero esto no algo de lo cual preocuparse si estás generando contenido o creando una comunidad en torno a desarrollo.
 
