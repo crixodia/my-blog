@@ -2,7 +2,7 @@
 layout: post
 title: "Algoritmo de Dijkstra en Python"
 date: 2021-04-20 11:55:00 -0500
-categories: algorithm python tutorial wiki
+categories: algorithms python tutorial wiki
 language: es
 author: Cristian Bastidas
 image: /assets/images/thumbnail-dijkstra.webp
