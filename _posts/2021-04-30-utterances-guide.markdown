@@ -4,6 +4,7 @@ title: "Utterances, un sistema de comentarios fácil de usar"
 date: 2021-04-30 11:55:00 -0500
 categories: tool web tutorial guide
 language: es
+author: Cristian Bastidas
 image: /assets/images/thumbnail-utterances.webp
 ---
 {%- assign create = "/assets/images/posts/utterances-create.webp" -%}

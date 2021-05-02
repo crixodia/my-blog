@@ -4,6 +4,7 @@ title: "Árbol genealógico familiar en java: árboles n-arios"
 date: 2021-04-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: es
+author: Cristian Bastidas
 image: /assets/images/thumbnail-trees.webp
 ---
 Quizá ya habrás implementado un árbol binario en java, lo cual es fácil. Por otra parte, los áboles n-arios se caracterizan por la posibilidad de tener n hijos. A continuación crearemos una aplicación a este tipo de dato con árboles genealógicos.
@@ -120,3 +121,9 @@ Puedes [descargar](https://github.com/crixodia/nary-family-tree/tree/master/exam
 ## Descarga el proyecto
 
 Descarga el proyecto completo en [GitHub](http://github.com/crixodia/nary-family-tree). Para cualquier sugerencia o aclaración deja tu comentario.
+
+<div style="margin-left: auto; text-align:right;">
+<i><small>
+This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-04-08-nary-family-tree.markdown %}">English</a>
+</small></i>
+</div>
