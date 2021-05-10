@@ -40,6 +40,6 @@ This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-04-08-
 # For English posts
 <div style="margin-left: auto; text-align:right;">
 <i><small>
-Este artículo también está en <a href="{{ site.baseurl }}{% link en/_posts/2021-04-08-nary-family-tree.markdown %}">español</a>
+Este artículo también está en <a href="{{ site.baseurl }}{% link _posts/2021-04-08-nary-family-tree.markdown %}">español</a>
 </small></i>
 </div>

@@ -280,3 +280,26 @@ table {
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
+
+
+/* CUSTOM SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(29, 29, 29);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(62, 62, 62);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(70, 70, 70);
+}

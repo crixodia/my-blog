@@ -4,43 +4,44 @@ title: "Java family tree: n-ary trees"
 date: 2021-04-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: en
+author: Cristian Bastidas
 image: /assets/images/thumbnail-trees.webp
 ---
-Quizá ya habrás implementado un árbol binario en java, lo cual es fácil. Por otra parte, los áboles n-arios se caracterizan por la posibilidad de tener n hijos. A continuación crearemos una aplicación a este tipo de dato con árboles genealógicos.
+Maybe, you have had implemented a binary tree in Java, which is easy. On the other hand, the key feature of n-ary trees is the possibility of having children. Then we will make an application based on n-ary trees which allow us to manage family trees.
 
-- [Árboles n-arios o generales](#árboles-n-arios-o-generales)
-- [Árbol genealógico](#árbol-genealógico)
-- [Definiendo los objetos](#definiendo-los-objetos)
-  - [Nodo](#nodo)
-  - [Árbol](#árbol)
-  - [Archivos: Guardar y cargar árboles](#archivos-guardar-y-cargar-árboles)
-  - [Unicidad del objeto de prueba](#unicidad-del-objeto-de-prueba)
-- [Interfaz gráfica de usuario](#interfaz-gráfica-de-usuario)
-- [Descarga el proyecto](#descarga-el-proyecto)
+- [N-ary trees](#n-ary-trees)
+- [Family tree](#family-tree)
+- [Defining the objects](#defining-the-objects)
+  - [Node](#node)
+  - [Tree](#tree)
+  - [Files: Save and open trees](#files-save-and-open-trees)
+  - [Uniqueness of the test object](#uniqueness-of-the-test-object)
+- [GUI](#gui)
+- [Download the entire project](#download-the-entire-project)
 
-## Árboles n-arios o generales
+## N-ary trees
 
-En pocas palabras, un árbol n-ario es una estrucutura de datos abstracta no lineal y jerárquica cuya definición se puede plantear recursivamente con una colección de nodos. Estos nodos tendrán una lista que referencian a su vez a otros nodos.
+In a nutshell, an n-ary tree is a no linear abstract data structure whose definition could be present recursively with a set of nodes. Those nodes will have a list that points to other nodes.
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/arbol-nario.png" style="display:block; margin-left: auto; margin-right:auto;" alt="Representación gráfica árbol nario">
 
-## Árbol genealógico
+## Family tree
 
-Una de sus aplicaciones se basa en el árbol genealógico. Pues cumple con los requisitos de un árbol n-ario (jerarquía, relaciones padre - hijo). La siguiente imagen muestra un ejemplo de árbol genealógico basado en la mitología griega.
+One of its applications is based on the family tree. Well, it meets the requirements of an n-ary tree (hierarchy, parent-child relationships). The image below shows an example of a family tree based on Greek mythology.
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/family-tree.png" style="display:block; margin-left: auto; margin-right:auto;" alt="Ejemplo de árbol familiar">
 
-## Definiendo los objetos
+## Defining the objects
 
-Dado que es un árbol genealógico, implementaremos un objeto genérico para esto. Y el árbol en sí como se especifica a continuación. Es necesario recalcar que los métodos implementados en la clase árbol pueden cambiar dependiendo de tus necesidades y del tipo de objeto que se use como valor en los nodos.
+Since it is a family tree, we will implement a generic object for this. And the tree itself as specified below. It is necessary to emphasize that the methods implemented in the tree class can change depending on your needs and the type of object that is used as value in the nodes.
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/uml.png" style="display:block; margin-left: auto; margin-right:auto;" alt="Ejemplo de árbol familiar">
 
-### Nodo
+### Node
 
-El nodo de nuestro árbol es sencillo de implementar. Tal y como lo especifica su estructura, usaremos un objeto padre, otro para la raíz y una lista de objetos hijos.
+Our tree node is easy to implement. As specified by its structure, we will use a parent object, another for the root, and a list of child objects.
 
-El método para añadir nodos está dado por:
+The method to add nodes is given by:
 
 ```java
 public Node add(Object o){
@@ -49,13 +50,13 @@ public Node add(Object o){
     return newNode;
 }
 ```
-Mira la clase [Node](https://github.com/crixodia/nary-family-tree/blob/master/ArbolGen/src/CapaNegocio/Node.java).
+See [Node](https://github.com/crixodia/nary-family-tree/blob/master/ArbolGen/src/CapaNegocio/Node.java).
 
-### Árbol
+### Tree
 
-La dificultad de este proyecto radica en la implementación del árbol. Dado que los árboles se podrán almacenar en archivos hay que diseñar un parser que traduzca el árbol a texto y otro para el proceso inverso. Además, para visualizar el árbol en la GUI también es necesario implementar un parser que permita traducirlo a un objeto tipo `DefaultMutableTreeNode`.
+The difficulty of this project lies in the implementation of the tree. Since trees can be stored in files, a parser must be designed to translate the tree into text and another for the reverse process. In addition, to display the tree in the GUI it is also necessary to implement a parser that allows it to be translated into a `DefaultMutableTreeNode` type object.
 
-Para esta labor me basé en el siguiente [pseudocódigo](https://stackoverflow.com/questions/21735468/parse-indented-text-tree-in-java). Para entenderlo debes tener nociones básicas de pilas. Puede revisar el código fuente del método `text2DTree(string)`.
+For this work I relied on the following [pseudocode](https://stackoverflow.com/questions/21735468/parse-indented-text-tree-in-java). To understand it you must have basic notions of stacks. You can review the source code of the `text2DTree (string)` method.
 
 ```python
 definir pila
@@ -74,9 +75,9 @@ while existan objetos
     pila.push(S2)
 return pila.get(0)
 ```
-### Archivos: Guardar y cargar árboles
+### Files: Save and open trees
 
-Luego, el proceso de leer los archivos se simplifica al guardar el padre de cada elemento. Solo hay que tratar el archivo según el formato especificado. Para este caso tenemos cada nodo en una línea diferente, su padre y el valor separados por `,` y los atributos del objeto por `:`
+Then the process of reading the files is simplified by saving the parent of each item. You just have to treat the file according to the specified format. For this case we have each node on a different line, its parent and value separated by `,` and the attributes of the object by `:`
 
 ```
 Aang:Katara:0:0
@@ -87,17 +88,17 @@ Tenzin:Pema,Ikki::0:0
 Aang:Katara,Bumi::0:0
 Aang:Katara,Kya::0:0
 ```
-Cuando leemos línea por línea podemos obtener su padre y el valor del nodo para luego ejecutar `addNewNode(padre, valor)`. Trasladado a la línea dos del formato de ejemplo `addNewNode(Aang, Tenzin)`.
+When we read line by line we can get its parent and the value of the node and then execute `addNewNode (parent, value)`. For instance `addNewNode (Aang, Tenzin)`.
 
-Para guardar los árboles también nos valemos del puntero al nodo padre. De esta forma solo hay que recorrer el árbol entero en pre-orden e ir concatenando el padre y el valor del nodo según el formato especificado.
+To save the trees we also use the pointer to the parent node. In this way, you only have to go through the entire tree in pre-order and go concatenating the parent and the value of the node according to the specified format.
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/tree-traversal.png" style="display:block; margin-left: auto; margin-right:auto;" width="500px" alt="Recorrido de árbol en pre-orden">
 
-Los métodos de búsqueda, remoción, profundidad y modificación pueden ser consultados en la clase [Tree](https://github.com/crixodia/nary-family-tree/blob/master/ArbolGen/src/CapaNegocio/Tree.java).
+The methods search, remove, depth and modify could be found in [Tree](https://github.com/crixodia/nary-family-tree/blob/master/ArbolGen/src/CapaNegocio/Tree.java).
 
-### Unicidad del objeto de prueba
+### Uniqueness of the test object
 
-Surge la interrogante ¿Qué pasa si el hijo tiene el mismo identificador (nombre) que el padre? Para este ejemplo comprobamos la unicidad en función de su cónyuge. Es decir, cuando comparemos los objetos se verificará que los nombre de ambos objetos y los nombres de sus cónyuges sean iguales. Si es así, entonces ambos objetos son iguales. Para ello sobreescribimos el método `equals(o)`.
+What happens if a child has the same ID as its father? We will create uniqueness by the spouse of the father. That is, when we create an object after inserting it on a tree we will verify that this does not exist based on its spouse ID. To do this, we will override `equals(o)` method.
 
 ```java
 @Override
@@ -107,16 +108,22 @@ public boolean equals(Object obj) {
 }
 ```
 
-## Interfaz gráfica de usuario
+## GUI
 
-La interfaz gráfica nos permitirá crear, modificar, insertar, eliminar; guardar y abrir archivos, y visualizar los atributos de los valores en cada nodo.
+The GUI will allow us to create, modify, insert, delete; save and open files, and visualize the attributes from each node.
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/gui.jpg" style="display:block; margin-left: auto; margin-right:auto;" alt="Recorrido de árbol en preorden">
 
-Puedes [descargar](https://github.com/crixodia/nary-family-tree/tree/master/examples) ejemplos de árboles y abrirlos para probar la funcionalidad.
+You can [download](https://github.com/crixodia/nary-family-tree/tree/master/examples) trees samples and open them to test their functionality.
 
 <img src="https://github.com/crixodia/nary-family-tree/raw/master/assets/open.jpg" style="display:block; margin-left: auto; margin-right:auto;" alt="Recorrido de árbol en preorden">
 
-## Descarga el proyecto
+## Download the entire project
 
-Descarga el proyecto completo en [GitHub](http://github.com/crixodia/nary-family-tree). Para cualquier sugerencia o aclaración deja tu comentario.
+Donwload the entire project on [GitHub](http://github.com/crixodia/nary-family-tree). Leave your comment 😋.
+
+<div style="margin-left: auto; text-align:right;">
+<i><small>
+Este artículo también está en <a href="{{ site.baseurl }}{% link _posts/2021-04-08-nary-family-tree.markdown %}">español</a>
+</small></i>
+</div>
