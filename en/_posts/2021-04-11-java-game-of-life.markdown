@@ -3,7 +3,7 @@ layout: post
 title: "El juego de la vida en Java"
 date: 2021-04-11 11:55:00 -0500
 categories: structures java challenge gui
-language: es
+language: en
 author: Cristian Bastidas
 image: /assets/images/thumbnail-life.webp
 ---
@@ -67,6 +67,6 @@ Descarga el [proyecto](https://github.com/crixodia/java-game-of-life) 🧐 Para 
 
 <div style="margin-left: auto; text-align:right;">
 <i><small>
-This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-04-08-java-game-of-life.markdown %}">English</a>
+Este artículo también está en <a href="{{ site.baseurl }}{% link _posts/2021-04-08-java-game-of-life.markdown %}">español</a>
 </small></i>
 </div>
