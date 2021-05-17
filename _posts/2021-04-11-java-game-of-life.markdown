@@ -67,6 +67,6 @@ Descarga el [proyecto](https://github.com/crixodia/java-game-of-life) 🧐 Para 
 
 <div style="margin-left: auto; text-align:right;">
 <i><small>
-This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-04-08-java-game-of-life.markdown %}">English</a>
+This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-04-11-java-game-of-life.markdown %}">English</a>
 </small></i>
 </div>

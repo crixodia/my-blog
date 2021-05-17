@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java family tree: n-ary trees"
-date: 2021-04-09 15:14:00 -0500
+date: 2021-05-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: en
 author: Cristian Bastidas
