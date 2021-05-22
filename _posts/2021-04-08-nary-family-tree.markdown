@@ -7,7 +7,7 @@ language: es
 author: Cristian Bastidas
 image: /assets/images/thumbnail-trees.webp
 ---
-Quizá ya habrás implementado un árbol binario en java, lo cual es fácil. Por otra parte, los áboles n-arios se caracterizan por la posibilidad de tener n hijos. A continuación crearemos una aplicación a este tipo de dato con árboles genealógicos.
+A diferencia de los árboles binarios, los árboles n-arios no tienen solo dos nodos secundarios. La característica clave de los árboles n-arios es la posibilidad de tener más de dos hijos. Luego haremos una aplicación basada en árboles n-arios que nos permitirá administrar árboles genealógicos.
 
 - [Árboles n-arios o generales](#árboles-n-arios-o-generales)
 - [Árbol genealógico](#árbol-genealógico)

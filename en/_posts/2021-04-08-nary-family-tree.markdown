@@ -7,7 +7,7 @@ language: en
 author: Cristian Bastidas
 image: /assets/images/thumbnail-trees.webp
 ---
-Maybe, you have had implemented a binary tree in Java, which is easy. On the other hand, the key feature of n-ary trees is the possibility of having children. Then we will make an application based on n-ary trees which allow us to manage family trees.
+Unlike binary trees, n-ary trees do not have just two child nodes. In this post we will make an application based on n-ary trees which allow us to manage family trees.
 
 - [N-ary trees](#n-ary-trees)
 - [Family tree](#family-tree)
