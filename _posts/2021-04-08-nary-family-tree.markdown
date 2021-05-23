@@ -124,6 +124,6 @@ Descarga el proyecto completo en [GitHub](http://github.com/crixodia/nary-family
 
 <div style="margin-left: auto; text-align:right;">
 <i><small>
-This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-04-08-nary-family-tree.markdown %}">English</a>
+This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-05-09-nary-family-tree.markdown %}">English</a>
 </small></i>
 </div>
