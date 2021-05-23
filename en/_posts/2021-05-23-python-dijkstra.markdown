@@ -35,7 +35,7 @@ The idea lies in exploring all the shortest paths from the origin node to the re
 Given a weighted graph of $$ N $$ nodes not isolated and the initial node $$X$$. An $$N$$ dimension vector $$V$$ will store the distances from $$X$$ to the rest of the nodes. Then, the algorithm will be:
 
 <img src="{{- dijkstra | relative_url -}}" alt="Algoritmo de Dijkstra animado" width="250px" style="display:block; margin-left: auto; margin-right:auto;">
-<div style="font-size: x-small; text-align:center;">Algortimo de Dijkstra animado extraído de <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif" title="Wikipedia">Wikipedia</a>
+<div style="font-size: x-small; text-align:center;">From <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif" title="Wikipedia">Wikipedia</a>
 </div>
 <br>
 
