@@ -213,3 +213,9 @@ Es decir:
 
 Recuerda que puedes [descargar](https://github.com/crixodia/python-dijkstra) el módulo junto a sus respectiva documentación 🧐.
 No olvides dejar tu comentario o escribirme a [@crixodia](https://twitter.com/crixodia) para sugerencias o dudas.
+
+<div style="margin-left: auto; text-align:right;">
+<i><small>
+This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-05-23-python-dijkstra.markdown %}">English</a>
+</small></i>
+</div>
