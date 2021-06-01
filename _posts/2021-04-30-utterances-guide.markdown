@@ -55,3 +55,9 @@ Además, puedes modificar el formato de los *issues* en GitHub. Para ello usa el
 Eso es todo. Aunque hay que mencionar un par de desventajas. No es posible comentar de forma anónima y los usuarios deberán tener una cuenta en GitHub para comentar. Pero esto no algo de lo cual preocuparse si estás generando contenido o creando una comunidad en torno a desarrollo.
 
 No olvides dejar tus inquietudes en los comentarios o escribirme a [@crixodia](htpps://twitter.com/crixodia) 🧐.
+
+<div style="margin-left: auto; text-align:right;">
+<i><small>
+This article is also in <a href="{{ site.baseurl }}{% link en/_posts/2021-05-31-utterances-guide.markdown %}">English</a>
+</small></i>
+</div>
