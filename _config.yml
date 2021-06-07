@@ -89,3 +89,4 @@ plugins:
 #   - vendor/ruby/
 exclude:
   - yyyy-mm-dd-title.markdown
+  - own_graphics.pptx
