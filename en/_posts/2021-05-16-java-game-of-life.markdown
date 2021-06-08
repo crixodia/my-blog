@@ -5,7 +5,7 @@ date: 2021-05-16 11:55:00 -0500
 categories: structures java challenge gui
 language: en
 author: Cristian Bastidas
-image: /assets/images/thumbnail-life.webp
+image: /assets/images/thumbnail-life.jpg
 ---
 The game of life is a cellular automaton designed by John Horton Conway in 1970. This is a game of zero players, which means that its evolution is determined by the initial state, and it is not required a data input after the game starts.
 

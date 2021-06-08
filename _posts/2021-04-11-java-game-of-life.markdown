@@ -5,7 +5,7 @@ date: 2021-04-11 11:55:00 -0500
 categories: structures java challenge gui
 language: es
 author: Cristian Bastidas
-image: /assets/images/thumbnail-life.webp
+image: /assets/images/thumbnail-life.jpg
 ---
 El juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. Se trata de un juego de cero jugadores, lo que indica que su evolución está determinada por el estado inicial y no necesita ninguna entrada de datos posterior.
 

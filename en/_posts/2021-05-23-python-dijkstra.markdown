@@ -5,7 +5,7 @@ date: 2021-05-23 11:55:00 -0500
 categories: algorithms python tutorial wiki
 language: en
 author: Cristian Bastidas
-image: /assets/images/thumbnail-dijkstra.webp
+image: /assets/images/thumbnail-dijkstra.jpg
 ---
 {%- assign graph = "/assets/images/posts/wgraph.webp" -%}
 {%- assign dijkstra = "/assets/images/posts/dijkstra-animation.webp" -%}

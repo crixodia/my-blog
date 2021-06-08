@@ -5,7 +5,7 @@ date: 2021-04-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: es
 author: Cristian Bastidas
-image: /assets/images/thumbnail-trees.webp
+image: /assets/images/thumbnail-trees.jpg
 ---
 A diferencia de los árboles binarios, los árboles n-arios no tienen solo dos nodos secundarios. La característica clave de los árboles n-arios es la posibilidad de tener más de dos hijos. Luego haremos una aplicación basada en árboles n-arios que nos permitirá administrar árboles genealógicos.
 

@@ -5,7 +5,7 @@ date: 2021-05-09 15:14:00 -0500
 categories: structures java tutorial gui
 language: en
 author: Cristian Bastidas
-image: /assets/images/thumbnail-trees.webp
+image: /assets/images/thumbnail-trees.jpg
 ---
 Unlike binary trees, n-ary trees do not have just two child nodes. In this post we will make an application based on n-ary trees which allow us to manage family trees.
 

@@ -5,7 +5,7 @@ date: 2021-06-06 00:00:00 -0500
 categories: algorithms python challenge guide
 language: es
 author: Cristian Bastidas
-image: /assets/images/thumbnail-partitions.webp
+image: /assets/images/thumbnail-partitions.jpg
 ---
 {%- assign partitions_sample = "/assets/images/posts/partitions.webp" -%}
 {%- assign partitions_times = "/assets/images/posts/partitions_times.webp" -%}
