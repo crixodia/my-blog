@@ -12,7 +12,7 @@ image: /assets/images/thumbnail-partitions.jpg
 {%- assign partitions_values = "/assets/images/posts/partitions_values.webp" -%}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
-Como aspirante a ingeniero, suelo resolver a diario retos de programación que me ayuden a mejorar mis habilidades. Tenía una buena racha hasta que me encontré con el siguiente problema.
+Como aspirante a ingeniero suelo resolver a diario retos de programación que me ayuden a mejorar mis habilidades. Tenía una buena racha hasta que me encontré con el siguiente problema.
 
 - [Ejemplo](#ejemplo)
 - [Código](#código)
