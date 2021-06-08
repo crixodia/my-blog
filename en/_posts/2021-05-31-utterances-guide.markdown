@@ -5,7 +5,7 @@ date: 2021-05-31 11:55:00 -0500
 categories: tool web tutorial guide
 language: en
 author: Cristian Bastidas
-image: /assets/images/default-featured-image.jpg
+image: /assets/images/thumbnail-utterances.jpg
 ---
 {%- assign create = "/assets/images/posts/utterances-create.webp" -%}
 {%- assign install = "/assets/images/posts/utterances-install.webp" -%}
