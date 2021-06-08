@@ -10,15 +10,13 @@ image: /assets/images/thumbnail-partitions.jpg
 {%- assign partitions_sample = "/assets/images/posts/partitions.webp" -%}
 {%- assign partitions_times = "/assets/images/posts/partitions_times.webp" -%}
 {%- assign partitions_values = "/assets/images/posts/partitions_values.webp" -%}
-
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+Como aspirante a ingeniero, suelo resolver a diario retos de programación que me ayuden a mejorar mis habilidades. Tenía una buena racha hasta que me encontré con el siguiente problema.
 
 - [Ejemplo](#ejemplo)
 - [Código](#código)
 - [Análisis de costo computacional](#análisis-de-costo-computacional)
-
-Como aspirante a ingeniero, suelo resolver a diario retos de programación que me ayuden a mejorar mis habilidades. Tenía una buena racha hasta que me encontré con el siguiente problema.
 
 > En teoría de números, una particion de un entero positivo `n` es una suma de enteros positivos. Dos sumas que solo difieren en el orden de los sumandos se consideran la misma partición.
 > Crear una función que reciba un entero `x`. La función debe retornar el número de particiones que tiene `x`.

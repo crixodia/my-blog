@@ -29,7 +29,7 @@ layout: default
       {%- if post.image -%}
         <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image shadow">
       {%- else -%}
-        {%- assign postImage = "/assets/images/default-featured-image.webp" -%}
+        {%- assign postImage = "/assets/images/default-featured-image.jpg" -%}
         <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image shadow">
       {%- endif -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>

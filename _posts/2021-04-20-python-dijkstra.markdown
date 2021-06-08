@@ -11,7 +11,6 @@ image: /assets/images/thumbnail-dijkstra.jpg
 {%- assign dijkstra = "/assets/images/posts/dijkstra-animation.webp" -%}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
-
 Si estás estudiando ingeniería o ciencias de la computación, lo más probable es que te hayas cruzado con este tema en teoría de grafos. Pues este tiene una amplia colección de usos en los campos mencionados.
 
 - [Algoritmo](#algoritmo)

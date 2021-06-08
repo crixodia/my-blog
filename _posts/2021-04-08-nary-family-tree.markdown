@@ -2,7 +2,6 @@
 layout: post
 title: "Árbol genealógico familiar en java: árboles n-arios"
 date: 2021-04-09 15:14:00 -0500
-ogpdate: 2021-04-09T15:14:00-0500
 categories: structures java tutorial gui
 language: es
 author: Cristian Bastidas

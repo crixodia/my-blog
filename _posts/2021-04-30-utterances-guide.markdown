@@ -9,7 +9,6 @@ image: /assets/images/thumbnail-utterances.jpg
 ---
 {%- assign create = "/assets/images/posts/utterances-create.webp" -%}
 {%- assign install = "/assets/images/posts/utterances-install.webp" -%}
-
 Al iniciar este blog lo primero que tenía en mente es el sistema de comentarios. Así que me decanté por lo más popular. Disqus ofrece varias características interesantes. Sin embargo, si tu proyecto no es algo de tal importancia como para pagar una suscripción mensual tengo la alternativa perfecta para ti.
 
 [Utterances](https://utteranc.es/) es un sistema de comentarios construido a partir de *GitHub issues* para blogs, y webs en general. Este sistema se destaca por ser completamente gratuito y ligero.
@@ -17,6 +16,7 @@ Al iniciar este blog lo primero que tenía en mente es el sistema de comentarios
 Usarlo es muy sencillo, basta seguir esta guía o las instrucciones de su [web oficial](https://utteranc.es/).
 
 Crea un repositorio público en [GitHub](https://github.com) en donde alojar los comentarios. También puedes usar un repositorio existente.
+
 
 <img src="{{- create | relative_url -}}" alt="Crear repositorio" width="600px" style="display:block; margin-left: auto; margin-right:auto;">
 

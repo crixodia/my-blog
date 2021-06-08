@@ -9,7 +9,6 @@ image: /assets/images/thumbnail-utterances.jpg
 ---
 {%- assign create = "/assets/images/posts/utterances-create.webp" -%}
 {%- assign install = "/assets/images/posts/utterances-install.webp" -%}
-
 When I started this blog, the first thing I thought of was the comment system. At first, I went with Disqus. Unfortunately, you have to pay for this if you want a clean blog (without ads). That is why I will show you an awesome alternative.
 
 Utterances is a comments system built from *GitHub Issues* for blogs and other webs. This is completely free and lightweight. It is easy to use and, it is enough if you follow the instructions on the official [web page](https://utteranc.es/).
