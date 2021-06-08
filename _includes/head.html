@@ -18,8 +18,7 @@
     <meta property="og:image" content="{{- page.image | relative_url -}}"/>
   {%- endif -%}
 
-  {%- if <page class="ogpdate"></page> -%}
-    <meta property="og:image" content="{{- page.image | relative_url -}}"/>
+  {%- if page.ogpdate -%}
     <meta name="publish_date" property="og:publish_date" content="{{- page.date -}}">
   {%- endif -%}
 
