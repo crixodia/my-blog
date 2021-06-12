@@ -90,4 +90,3 @@ plugins:
 exclude:
   - yyyy-mm-dd-title.markdown
   - own_graphics.pptx
-  - 2021-06-12-labyrinth-dijkstra.markdown
